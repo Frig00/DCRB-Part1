@@ -30,8 +30,8 @@ def check_and_commit():
         print(f"{len(dir_chunks)} directories committed.")
         dir_chunks.clear()
 def fill_db(root_path):
-    dir_id = 1
-    dir_queue = deque([(root_path, None)])  # Initialize the queue with the root directory
+    dir_id = db_cursor.lastrowid+1 if db_cursor.lastrowid else 1
+    dir_queue = deque([(root_path, None)])
 
     while dir_queue:
         current_dir, parent_dir_id = dir_queue.popleft()
@@ -46,16 +46,19 @@ def fill_db(root_path):
                 if os.path.isdir(item_path):
                     dir_queue.append((item_path, current_dir_id))
                 elif os.path.isfile(item_path):
+
                     try:
                         readable = item.rsplit('.', 1)[1] in readable_types
                     except IndexError:
                         readable = False
+
                     try:
                         file_name = item.rsplit('.', 1)[0]
                         file_type = item.rsplit('.', 1)[1]
                     except IndexError:
                         file_name = item
                         file_type = ''
+
                     if readable:
                         try:
                             with open(item_path, 'r', encoding='utf-8') as file:
