@@ -7,7 +7,7 @@ dir_query = "INSERT INTO directories (name, parent_dir) VALUES (%s, %s)"
 file_query = "INSERT INTO files (name, type, readable, dir, content) VALUES (%s, %s, %s, %s, %s)"
 file_chunks = []
 dir_chunks = []
-max_chunk_size = 50
+max_chunk_size = 200
 readable_types = ['txt', 'html']
 
 # Check if files and directories chunks are full and commit them
@@ -108,7 +108,7 @@ if __name__ == "__main__":
     db_cursor = db_connection.cursor()
 
     # Root directory
-    root_dir = "DCRB"
+    root_dir = "C:\\"
 
     fill_db(root_dir)
 

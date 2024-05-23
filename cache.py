@@ -5,7 +5,7 @@ class LocalCache:
     # Cache initialization with a max dimension
     def __init__(self):
         self.cache = OrderedDict()
-        self.max_dim = 100
+        self.max_dim = 200
 
     # Control cache does not exceed max dimension
     def set(self, key, value):

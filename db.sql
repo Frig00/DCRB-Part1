@@ -20,7 +20,7 @@ CREATE TABLE files (
     type VARCHAR(255),
     readable BOOLEAN,
     dir INT NOT NULL,
-    content MEDIUMTEXT,
+    content LONGTEXT,
     FOREIGN KEY (dir) REFERENCES directories (id) ON DELETE CASCADE,
     INDEX idx_file_name (name),
     FULLTEXT INDEX idx_file_content (content)

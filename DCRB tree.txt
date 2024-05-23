@@ -1,0 +1,783 @@
+DCRB-Part1/DCRB
+├── 📄 Index of music articles.txt
+├── 📄 Music.txt
+├── 📁 Music by culture
+│   ├── 📄 Andean music.txt
+│   ├── 📄 Music of ancient Greece.txt
+│   ├── 📁 Ancient Egyptian music
+│   │   ├── 📁 Ancient Egyptian musical instruments
+│   │   │   ├── 📄 Arghul.txt
+│   │   │   ├── 📄 Castanets.txt
+│   │   │   └── 📄 Goblet drum.txt
+│   │   └── 📁 Ancient Egyptian musicians
+│   │       ├── 📄 Djedmaatesankh.txt
+│   │       └── 📄 Rahonem.txt
+│   ├── 📁 Ancient Greek music
+│   │   ├── 📄 Amoebaean singing.txt
+│   │   ├── 📄 Anonymus Bellermanni.txt
+│   │   ├── 📄 Aoidos.txt
+│   │   ├── 📁 Ancient Greek music theory
+│   │   │   ├── 📄 Arsis and thesis.txt
+│   │   │   ├── 📄 Genus (music).txt
+│   │   │   └── 📄 Hagiopolitan Octoechos.txt
+│   │   ├── 📁 Ancient Greek musicians
+│   │   │   ├── 📄 Aglais (musician).txt
+│   │   │   ├── 📄 Aristocleides.txt
+│   │   │   ├── 📄 Cynaethus.txt
+│   │   │   ├── 📁 Ancient Greek composers
+│   │   │   │   ├── 📄 Athenaeus (musician).txt
+│   │   │   │   ├── 📄 Charixene.txt
+│   │   │   │   ├── 📄 Limenius.txt
+│   │   │   │   └── 📁 Ancient Greek lyric poets
+│   │   │   │       ├── 📄 Artemon Melopoios.txt
+│   │   │   │       ├── 📄 Asclepiades of Samos.txt
+│   │   │   │       ├── 📄 Cleitagora.txt
+│   │   │   │       └── 📁 Nine Lyric Poets
+│   │   │   ├── 📁 Ancient Greek flautists
+│   │   │   │   ├── 📄 Antigenidas of Thebes.txt
+│   │   │   │   ├── 📄 Archytas of Mytilene.txt
+│   │   │   │   └── 📄 Charixene.txt
+│   │   │   └── 📁 Ancient Greek musicologists
+│   │   │       ├── 📄 Aelius Dionysius.txt
+│   │   │       ├── 📄 Anonymus Bellermanni.txt
+│   │   │       ├── 📄 Aristoxenus.txt
+│   │   │       └── 📁 Ancient Greek music theorists
+│   │   │           ├── 📄 Adrastus of Aphrodisias.txt
+│   │   │           ├── 📄 Alypius of Alexandria.txt
+│   │   │           └── 📄 Archestratus (music theorist).txt
+│   │   └── 📁 Metrical feet
+│   │       ├── 📄 Amphibrach.txt
+│   │       ├── 📄 Anaclasis (poetry).txt
+│   │       └── 📄 Metrical foot.txt
+│   └── 📁 Music festivals by culture
+│       ├── 📁 Carnatic classical music festivals
+│       │   ├── 📄 Birmingham Thyagaraja Festival.txt
+│       │   ├── 📄 Chembai Sangeetholsavam.txt
+│       │   └── 📄 Chennaiyil Thiruvaiyaru.txt
+│       ├── 📁 Celtic music festivals
+│       │   ├── 📄 Argyllshire Gathering.txt
+│       │   ├── 📄 Austin Celtic Association.txt
+│       │   ├── 📄 Brandivy.txt
+│       │   ├── 📁 Breton festivals
+│       │   │   ├── 📄 Fest noz.txt
+│       │   │   ├── 📄 Festiv'Arz.txt
+│       │   │   └── 📄 Festival Celtique.txt
+│       │   ├── 📁 Eisteddfod
+│       │   │   ├── 📄 1176 Cardigan eisteddfod.txt
+│       │   │   ├── 📄 2018 Cardiff National Eisteddfod.txt
+│       │   │   ├── 📄 Eisteddfod.txt
+│       │   │   ├── 📁 Bards
+│       │   │   │   ├── 📄 Amergin Glúingel.txt
+│       │   │   │   ├── 📄 Aneirin.txt
+│       │   │   │   ├── 📄 Bard.txt
+│       │   │   │   ├── 📁 Chaired bards
+│       │   │   │   ├── 📁 Crowned bards
+│       │   │   │   └── 📁 Fictional bards
+│       │   │   ├── 📁 Gorseddau
+│       │   │   │   ├── 📄 Bardic name.txt
+│       │   │   │   ├── 📄 Gorsedd Cymru.txt
+│       │   │   │   ├── 📄 Goursez Vreizh.txt
+│       │   │   │   ├── 📁 Bards of Gorsedh Kernow
+│       │   │   │   └── 📁 Bards of the Gorsedd
+│       │   │   └── 📁 Presidents of the National Eisteddfod of Wales
+│       │   │       ├── 📄 Emlyn Hooson, Baron Hooson.txt
+│       │   │       ├── 📄 John Griffiths (archdeacon of Llandaff).txt
+│       │   │       └── 📄 Seaborne Davies.txt
+│       │   └── 📁 Highland games
+│       │       ├── 📄 Brazilian Scottish Highland Games.txt
+│       │       ├── 📄 Caber toss.txt
+│       │       ├── 📄 Cabrach.txt
+│       │       ├── 📁 Highland games in Canada
+│       │       │   ├── 📄 Antigonish Highland Games.txt
+│       │       │   ├── 📄 BC Highland Games.txt
+│       │       │   └── 📄 Glengarry Highland Games.txt
+│       │       ├── 📁 Highland games in Scotland
+│       │       │   ├── 📄 Atholl Gathering.txt
+│       │       │   ├── 📄 Braemar Gathering.txt
+│       │       │   └── 📄 List of winners of the Gold Medal, Senior Piobaireachd and Former Winners' MSR at the Argyllshire Gathering.txt
+│       │       └── 📁 Scottish Highland dance
+│       │           ├── 📄 Aboyne dress.txt
+│       │           ├── 📄 Dancer's Delight.txt
+│       │           ├── 📄 Highland dance.txt
+│       │           └── 📁 Scottish step dances
+│       └── 📁 Christian music festivals
+│           ├── 📄 Agape Music Festival.txt
+│           ├── 📄 Christian Festival Association.txt
+│           ├── 📄 Christian music festival.txt
+│           ├── 📁 Camp meeting grounds
+│           │   ├── 📄 Advent Camp Meeting Grounds Historic District.txt
+│           │   ├── 📄 Aliceton Camp Meeting Ground.txt
+│           │   ├── 📄 Asbury Grove.txt
+│           │   └── 📁 Tabernacles (Methodist)
+│           │       ├── 📄 Center Arbor.txt
+│           │       ├── 📄 Chapel Hill Church Tabernacle.txt
+│           │       └── 📄 Tabernacle (Methodist).txt
+│           ├── 📁 Evangelical Christian music festivals
+│           │   ├── 📄 Freakstock.txt
+│           │   ├── 📄 Newday.txt
+│           │   └── 📄 Passion (worship band).txt
+│           └── 📁 Gospel music festivals
+│               ├── 📄 ASOP Music Festival.txt
+│               ├── 📄 Australian Gospel Music Festival.txt
+│               └── 📄 The Experience (gospel concert).txt
+├── 📁 Music by date
+│   ├── 📁 Music by century
+│   │   ├── 📁 Music genres by century
+│   │   │   ├── 📁 16th-century music genres
+│   │   │   │   ├── 📄 A cappella.txt
+│   │   │   │   ├── 📄 Air (music).txt
+│   │   │   │   ├── 📄 Air de cour.txt
+│   │   │   │   ├── 📁 Anthems
+│   │   │   │   │   ├── 📄 Anthem.txt
+│   │   │   │   │   ├── 📄 Auld Lang Syne.txt
+│   │   │   │   │   ├── 📄 Bethlehem Down.txt
+│   │   │   │   │   ├── 📁 African anthems
+│   │   │   │   │   ├── 📁 Alma mater songs
+│   │   │   │   │   └── 📁 Lists of anthems
+│   │   │   │   ├── 📁 Carnatic music
+│   │   │   │   │   ├── 📄 Alapana.txt
+│   │   │   │   │   ├── 📄 Carnatic music.txt
+│   │   │   │   │   ├── 📄 Development of Carnatic music.txt
+│   │   │   │   │   ├── 📁 Carnatic classical music festivals
+│   │   │   │   │   ├── 📁 Carnatic compositions
+│   │   │   │   │   └── 📁 Carnatic music instruments
+│   │   │   │   └── 📁 Odissi music
+│   │   │   │       ├── 📄 Ahe Nila Saila.txt
+│   │   │   │       ├── 📄 Balakrushna Dash.txt
+│   │   │   │       ├── 📄 Bhikari Bal.txt
+│   │   │   │       ├── 📁 Artforms based on Odissi music
+│   │   │   │       ├── 📁 Disciples of Balakrushna Dash
+│   │   │   │       └── 📁 Disciples of Singhari Shyamsundar Kar
+│   │   │   ├── 📁 17th-century music genres
+│   │   │   │   ├── 📄 Air (music).txt
+│   │   │   │   ├── 📄 Air de cour.txt
+│   │   │   │   ├── 📄 Air à boire.txt
+│   │   │   │   ├── 📁 Anthems
+│   │   │   │   │   ├── 📄 Anthem.txt
+│   │   │   │   │   ├── 📄 Auld Lang Syne.txt
+│   │   │   │   │   ├── 📄 Bethlehem Down.txt
+│   │   │   │   │   ├── 📁 African anthems
+│   │   │   │   │   ├── 📁 Alma mater songs
+│   │   │   │   │   └── 📁 Lists of anthems
+│   │   │   │   ├── 📁 Cantatas
+│   │   │   │   │   ├── 📄 Altbachisches Archiv.txt
+│   │   │   │   │   ├── 📄 Cantata.txt
+│   │   │   │   │   ├── 📄 Choral works by Max Bruch.txt
+│   │   │   │   │   ├── 📁 Cantatas by composer
+│   │   │   │   │   ├── 📁 Cantatas by date
+│   │   │   │   │   └── 📁 Christmas cantatas
+│   │   │   │   └── 📁 Carnatic music
+│   │   │   │       ├── 📄 Alapana.txt
+│   │   │   │       ├── 📄 Carnatic music.txt
+│   │   │   │       ├── 📄 Development of Carnatic music.txt
+│   │   │   │       ├── 📁 Carnatic classical music festivals
+│   │   │   │       ├── 📁 Carnatic compositions
+│   │   │   │       └── 📁 Carnatic music instruments
+│   │   │   └── 📁 18th-century music genres
+│   │   │       ├── 📄 Air (music).txt
+│   │   │       ├── 📄 Air à boire.txt
+│   │   │       ├── 📄 American patriotic music.txt
+│   │   │       ├── 📁 African-American music
+│   │   │       │   ├── 📄 Acid house.txt
+│   │   │       │   ├── 📄 African-American Music Appreciation Month.txt
+│   │   │       │   ├── 📄 African-American music.txt
+│   │   │       │   ├── 📁 African-American music in Africa
+│   │   │       │   ├── 📁 African-American musical groups
+│   │   │       │   └── 📁 African-American musicians
+│   │   │       ├── 📁 Anthems
+│   │   │       │   ├── 📄 Anthem.txt
+│   │   │       │   ├── 📄 Auld Lang Syne.txt
+│   │   │       │   ├── 📄 Bethlehem Down.txt
+│   │   │       │   ├── 📁 African anthems
+│   │   │       │   ├── 📁 Alma mater songs
+│   │   │       │   └── 📁 Lists of anthems
+│   │   │       └── 📁 Cajun music
+│   │   │           ├── 📄 Cajun French Music Association.txt
+│   │   │           ├── 📄 Cajun music.txt
+│   │   │           ├── 📄 Fred's Lounge.txt
+│   │   │           ├── 📁 Cajun folk songs
+│   │   │           ├── 📁 Cajun music albums
+│   │   │           └── 📁 Cajun musical instruments
+│   │   ├── 📁 Musicals by century
+│   │   │   ├── 📁 19th-century musicals
+│   │   │   │   ├── 📁 1850s musicals
+│   │   │   │   │   └── 📁 1855 musicals
+│   │   │   │   ├── 📁 1860s musicals
+│   │   │   │   │   ├── 📁 1860 musicals
+│   │   │   │   │   ├── 📁 1866 musicals
+│   │   │   │   │   └── 📁 1867 musicals
+│   │   │   │   └── 📁 1870s musicals
+│   │   │   │       ├── 📁 1874 musicals
+│   │   │   │       ├── 📁 1876 musicals
+│   │   │   │       └── 📁 1877 musicals
+│   │   │   ├── 📁 Musical films by century
+│   │   │   │   ├── 📁 20th-century musical films
+│   │   │   │   │   ├── 📁 1920s musical films
+│   │   │   │   │   ├── 📁 1930s musical films
+│   │   │   │   │   └── 📁 1940s musical films
+│   │   │   │   ├── 📁 21st-century musical films
+│   │   │   │   │   ├── 📁 2000s musical films
+│   │   │   │   │   ├── 📁 2010s musical films
+│   │   │   │   │   └── 📁 2020s musical films
+│   │   │   │   └── 📁 Musical drama films by century
+│   │   │   │       ├── 📁 20th-century musical drama films
+│   │   │   │       ├── 📁 21st-century musical drama films
+│   │   │   │       └── 📁 Musical comedy-drama films by century
+│   │   │   └── 📁 Operas by century
+│   │   │       ├── 📁 16th-century operas
+│   │   │       │   └── 📁 1590s operas
+│   │   │       ├── 📁 17th-century operas
+│   │   │       │   ├── 📁 1600s operas
+│   │   │       │   ├── 📁 1610s operas
+│   │   │       │   └── 📁 1620s operas
+│   │   │       └── 📁 18th-century operas
+│   │   │           ├── 📄 Bajazet (Gasparini opera).txt
+│   │   │           ├── 📄 Io (opera).txt
+│   │   │           ├── 📄 Les Boréades.txt
+│   │   │           ├── 📁 1700s operas
+│   │   │           ├── 📁 1710s operas
+│   │   │           └── 📁 1720s operas
+│   │   └── 📁 Musicians by century
+│   │       ├── 📄 Template-Musicians by nationality and century category header.txt
+│   │       ├── 📁 Conductors (music) by century
+│   │       │   ├── 📁 18th-century conductors (music)
+│   │       │   │   ├── 📄 Andrew Adgate.txt
+│   │       │   │   ├── 📄 Johann Friedrich Agricola.txt
+│   │       │   │   └── 📄 Luigi de Baillou.txt
+│   │       │   ├── 📁 19th-century conductors (music)
+│   │       │   │   ├── 📄 Franz Abt.txt
+│   │       │   │   ├── 📄 Jean-Baptiste Accolay.txt
+│   │       │   │   ├── 📄 Johann Joseph Abert.txt
+│   │       │   │   ├── 📁 19th-century American conductors (music)
+│   │       │   │   ├── 📁 19th-century British conductors (music)
+│   │       │   │   └── 📁 19th-century Irish conductors (music)
+│   │       │   └── 📁 20th-century conductors (music)
+│   │       │       ├── 📄 Dilbar Abdurahmonova.txt
+│   │       │       ├── 📄 Evald Aav.txt
+│   │       │       ├── 📄 Kanako Abe.txt
+│   │       │       ├── 📁 20th-century American conductors (music)
+│   │       │       ├── 📁 20th-century Austrian conductors (music)
+│   │       │       └── 📁 Rhodesian conductors (music)
+│   │       ├── 📁 Musicians by century and instrument
+│   │       │   ├── 📁 16th-century musicians by instrument
+│   │       │   │   ├── 📁 16th-century Irish musicians by instrument
+│   │       │   │   ├── 📁 16th-century harpists
+│   │       │   │   └── 📁 16th-century singers
+│   │       │   ├── 📁 17th-century musicians by instrument
+│   │       │   │   ├── 📁 17th-century Irish musicians by instrument
+│   │       │   │   ├── 📁 17th-century bagpipe players
+│   │       │   │   └── 📁 17th-century harpists
+│   │       │   └── 📁 18th-century musicians by instrument
+│   │       │       ├── 📁 18th-century British pianists
+│   │       │       ├── 📁 18th-century Irish musicians by instrument
+│   │       │       └── 📁 18th-century bagpipe players
+│   │       └── 📁 Musicians by instrument and century
+│   │           ├── 📁 Accordionists by century
+│   │           │   ├── 📁 19th-century accordionists
+│   │           │   ├── 📁 20th-century accordionists
+│   │           │   └── 📁 Norwegian accordionists by century
+│   │           ├── 📁 Bagpipe players by century
+│   │           │   ├── 📁 17th-century bagpipe players
+│   │           │   ├── 📁 18th-century bagpipe players
+│   │           │   └── 📁 Irish uilleann pipers by century
+│   │           └── 📁 Banjoists by century
+│   │               ├── 📁 20th-century banjoists
+│   │               ├── 📁 21st-century banjoists
+│   │               └── 📁 Irish banjoists by century
+│   ├── 📁 Music by decade
+│   │   ├── 📁 Music by country and decade
+│   │   │   ├── 📁 Albanian music by decade
+│   │   │   │   ├── 📁 2000s in Albanian music
+│   │   │   │   │   ├── 📁 2004 in Albanian music
+│   │   │   │   │   ├── 📁 2005 in Albanian music
+│   │   │   │   │   └── 📁 2006 in Albanian music
+│   │   │   │   ├── 📁 2010s in Albanian music
+│   │   │   │   │   ├── 📁 2010 in Albanian music
+│   │   │   │   │   ├── 📁 2011 in Albanian music
+│   │   │   │   │   └── 📁 2012 in Albanian music
+│   │   │   │   └── 📁 2020s in Albanian music
+│   │   │   │       ├── 📁 2020 in Albanian music
+│   │   │   │       ├── 📁 2021 in Albanian music
+│   │   │   │       └── 📁 2022 in Albanian music
+│   │   │   ├── 📁 American music by decade
+│   │   │   │   ├── 📁 1880s in American music
+│   │   │   │   │   └── 📄 Timeline of music in the United States (1880–1919).txt
+│   │   │   │   ├── 📁 1890s in American music
+│   │   │   │   │   └── 📄 Timeline of music in the United States (1880–1919).txt
+│   │   │   │   └── 📁 1900s in American music
+│   │   │   │       ├── 📄 Indianist movement.txt
+│   │   │   │       ├── 📄 Music history of the United States (1900–1940).txt
+│   │   │   │       └── 📄 Prior to 1920 in country music.txt
+│   │   │   └── 📁 Australian music by decade
+│   │   │       ├── 📁 1940s in Australian music
+│   │   │       │   └── 📄 List of number-one singles in Australia during the 1940s.txt
+│   │   │       ├── 📁 1950s in Australian music
+│   │   │       │   └── 📄 List of number-one singles in Australia during the 1950s.txt
+│   │   │       └── 📁 1960s in Australian music
+│   │   │           ├── 📄 Australian music publications of the 60s.txt
+│   │   │           ├── 📄 Australian record companies in the 60s.txt
+│   │   │           ├── 📄 List of number-one albums in Australia during the 1960s.txt
+│   │   │           ├── 📁 1965 in Australian music
+│   │   │           ├── 📁 1966 in Australian music
+│   │   │           └── 📁 1967 in Australian music
+│   │   ├── 📁 Music by decade and country
+│   │   │   ├── 📁 1870s in music by country
+│   │   │   │   ├── 📁 1870s in Norwegian music
+│   │   │   │   │   ├── 📄 1879 in Norwegian music.txt
+│   │   │   │   │   └── 📁 1879 in Norwegian music
+│   │   │   │   └── 📁 1879 in music by country
+│   │   │   │       └── 📁 1879 in Norwegian music
+│   │   │   ├── 📁 1880s in music by country
+│   │   │   │   ├── 📁 1880 in music by country
+│   │   │   │   │   └── 📁 1880 in Norwegian music
+│   │   │   │   ├── 📁 1881 in music by country
+│   │   │   │   │   └── 📁 1881 in Norwegian music
+│   │   │   │   └── 📁 1882 in music by country
+│   │   │   │       └── 📁 1882 in Norwegian music
+│   │   │   └── 📁 1890s in music by country
+│   │   │       ├── 📁 1890 in music by country
+│   │   │       │   └── 📁 1890 in Norwegian music
+│   │   │       ├── 📁 1891 in music by country
+│   │   │       │   └── 📁 1891 in Norwegian music
+│   │   │       └── 📁 1892 in music by country
+│   │   │           └── 📁 1892 in Norwegian music
+│   │   └── 📁 Musicals by decade
+│   │       ├── 📁 1850s musicals
+│   │       │   └── 📁 1855 musicals
+│   │       │       └── 📄 Po-ca-hon-tas, or The Gentle Savage.txt
+│   │       ├── 📁 1860s musicals
+│   │       │   ├── 📁 1860 musicals
+│   │       │   │   └── 📄 The Seven Sisters (musical).txt
+│   │       │   ├── 📁 1866 musicals
+│   │       │   │   ├── 📄 Dulcamara, or the Little Duck and the Great Quack.txt
+│   │       │   │   └── 📄 The Black Crook.txt
+│   │       │   └── 📁 1867 musicals
+│   │       │       ├── 📄 Harlequin Cock Robin and Jenny Wren.txt
+│   │       │       └── 📄 La Vivandière (Gilbert).txt
+│   │       └── 📁 Musical films by decade
+│   │           ├── 📁 1920s musical films
+│   │           │   ├── 📄 A Musical Monologue.txt
+│   │           │   ├── 📄 Buenos Aires, Ciudad de Ensueño.txt
+│   │           │   ├── 📄 Happy Days (1929 film).txt
+│   │           │   ├── 📁 1920s musical comedy films
+│   │           │   ├── 📁 1927 musical films
+│   │           │   └── 📁 1929 musical films
+│   │           ├── 📁 1930s musical films
+│   │           │   ├── 📄 Great Day (unfinished film).txt
+│   │           │   ├── 📄 Paramount Headliner.txt
+│   │           │   ├── 📄 The March of Time (film).txt
+│   │           │   ├── 📁 1930 musical films
+│   │           │   ├── 📁 1931 musical films
+│   │           │   └── 📁 1932 musical films
+│   │           └── 📁 1940s musical films
+│   │               ├── 📄 Auroratone.txt
+│   │               ├── 📄 Higher and Higher (film).txt
+│   │               ├── 📄 Meet Me in St. Louis.txt
+│   │               ├── 📁 1940 musical films
+│   │               ├── 📁 1941 musical films
+│   │               └── 📁 1942 musical films
+│   └── 📁 Music by year
+│       ├── 📄 List of years in Danish music.txt
+│       ├── 📄 Table of years in music.txt
+│       ├── 📄 Timeline of musical events.txt
+│       ├── 📁 Albums by year
+│       │   ├── 📁 Christmas albums by year
+│       │   │   ├── 📁 1940 Christmas albums
+│       │   │   │   └── 📄 Christmas Music (album).txt
+│       │   │   ├── 📁 1945 Christmas albums
+│       │   │   │   └── 📄 Merry Christmas (Bing Crosby album).txt
+│       │   │   └── 📁 1946 Christmas albums
+│       │   │       └── 📄 Perry Como Sings Merry Christmas Music.txt
+│       │   ├── 📁 Classical albums by year
+│       │   │   ├── 📁 1990 classical albums
+│       │   │   │   ├── 📄 Black Angels (album).txt
+│       │   │   │   ├── 📄 Carreras Domingo Pavarotti in Concert.txt
+│       │   │   │   └── 📄 The Complete Mozart Edition.txt
+│       │   │   ├── 📁 1991 classical albums
+│       │   │   │   ├── 📄 Concierto de Aranjuez (Paco de Lucía album).txt
+│       │   │   │   ├── 📄 Essential Pavarotti II.txt
+│       │   │   │   └── 📄 The Complete Mozart Edition.txt
+│       │   │   └── 📁 1992 classical albums
+│       │   │       ├── 📄 A Carnegie Hall Christmas Concert.txt
+│       │   │       ├── 📄 Apasionada (Jane Rutter album).txt
+│       │   │       └── 📄 Chérubin (Pinchas Steinberg recording).txt
+│       │   └── 📁 Lists of albums by release date
+│       │       ├── 📄 List of 2005 albums.txt
+│       │       ├── 📄 List of 2006 albums.txt
+│       │       └── 📄 List of 2007 albums.txt
+│       ├── 📁 Classical music by year
+│       │   ├── 📄 2009 in classical music.txt
+│       │   ├── 📄 2010 in classical music.txt
+│       │   └── 📄 2011 in classical music.txt
+│       └── 📁 Compositions by year
+│           ├── 📁 Cantatas by date
+│           │   ├── 📁 1680 cantatas
+│           │   │   └── 📄 Membra Jesu Nostri.txt
+│           │   ├── 📁 1693 cantatas
+│           │   │   └── 📄 Nun komm, der Heiden Heiland (Böhm).txt
+│           │   └── 📁 1708 cantatas
+│           │       ├── 📄 Aci, Galatea e Polifemo.txt
+│           │       ├── 📄 Agrippina condotta a morire or Dunque sarà pur vero.txt
+│           │       └── 📄 Allor ch'io dissi addio.txt
+│           ├── 📁 Instrumentals by year
+│           │   ├── 📁 1966 instrumentals
+│           │   │   ├── 📄 Beck's Bolero.txt
+│           │   │   ├── 📄 Let's Go Away for Awhile.txt
+│           │   │   └── 📄 Music to Watch Girls By.txt
+│           │   ├── 📁 1984 instrumentals
+│           │   │   ├── 📄 4th of July (U2 song).txt
+│           │   │   └── 📄 Celestial Soda Pop.txt
+│           │   └── 📁 1995 instrumentals
+│           │       ├── 📄 Cayenne (instrumental).txt
+│           │       ├── 📄 Children (composition).txt
+│           │       └── 📄 Clubbed to Death (instrumental).txt
+│           └── 📁 Operas by year
+│               ├── 📁 1597 operas
+│               │   └── 📄 Dafne.txt
+│               ├── 📁 1600 operas
+│               │   ├── 📄 Euridice (Peri).txt
+│               │   ├── 📄 Il rapimento di Cefalo.txt
+│               │   └── 📄 Rappresentatione di Anima, et di Corpo.txt
+│               └── 📁 1602 operas
+│                   └── 📄 Euridice (Caccini).txt
+└── 📁 Music by ethnicity
+    ├── 📄 Dalit music.txt
+    ├── 📄 Maya music.txt
+    ├── 📄 Music of the African diaspora.txt
+    ├── 📁 African-American music
+    │   ├── 📄 Acid house.txt
+    │   ├── 📄 African-American Music Appreciation Month.txt
+    │   ├── 📄 African-American music.txt
+    │   ├── 📁 African-American music in Africa
+    │   │   ├── 📄 Afro rock.txt
+    │   │   ├── 📄 Boomba music.txt
+    │   │   ├── 📄 G.V. Series.txt
+    │   │   └── 📁 African hip hop
+    │   │       ├── 📄 African hip hop.txt
+    │   │       ├── 📄 Beninese hip hop.txt
+    │   │       ├── 📄 Egyptian hip hop.txt
+    │   │       └── 📁 African hip hop by country
+    │   │           ├── 📄 Malawian hip hop.txt
+    │   │           ├── 📁 Algerian hip hop
+    │   │           ├── 📁 Angolan hip hop
+    │   │           └── 📁 Botswana hip hop
+    │   ├── 📁 African-American musical groups
+    │   │   ├── 📄 2 Live Crew.txt
+    │   │   ├── 📄 2nd II None.txt
+    │   │   ├── 📄 2nd Nature (boy band).txt
+    │   │   ├── 📁 African-American musical duos
+    │   │   │   ├── 📄 7 Days of Funk (group).txt
+    │   │   │   ├── 📄 8Ball & MJG.txt
+    │   │   │   └── 📄 A.Dd+.txt
+    │   │   ├── 📁 African-American musical quartets
+    │   │   │   ├── 📄 54th Platoon.txt
+    │   │   │   ├── 📄 B2K.txt
+    │   │   │   └── 📄 The Click (band).txt
+    │   │   └── 📁 African-American musical trios
+    │   │       ├── 📄 213 (group).txt
+    │   │       ├── 📄 3T.txt
+    │   │       └── 📄 Allure (group).txt
+    │   └── 📁 African-American musicians
+    │       ├── 📄 Abdu Ali.txt
+    │       ├── 📄 African-American music.txt
+    │       ├── 📄 Black conductors.txt
+    │       ├── 📁 African-American male musicians
+    │       │   ├── 📁 African-American male composers
+    │       │   │   ├── 📄 James Brown.txt
+    │       │   │   ├── 📄 Terence Blanchard.txt
+    │       │   │   ├── 📄 Will Accooe.txt
+    │       │   │   ├── 📁 African-American male classical composers
+    │       │   │   └── 📁 African-American male songwriters
+    │       │   └── 📁 African-American male singers
+    │       │       ├── 📄 Carter Beauford.txt
+    │       │       ├── 📄 Hinton Battle.txt
+    │       │       ├── 📄 Jon Batiste.txt
+    │       │       ├── 📁 19th-century African-American male singers
+    │       │       ├── 📁 20th-century African-American male singers
+    │       │       └── 📁 21st-century African-American male singers
+    │       ├── 📁 African-American musicians by genre
+    │       │   ├── 📁 African-American classical musicians
+    │       │   │   ├── 📄 Black conductors.txt
+    │       │   │   ├── 📄 Kalena Bovell.txt
+    │       │   │   ├── 📄 List of African-American women in classical music.txt
+    │       │   │   ├── 📁 African-American classical composers
+    │       │   │   ├── 📁 African-American classical pianists
+    │       │   │   └── 📁 African-American opera singers
+    │       │   ├── 📁 African-American country musicians
+    │       │   │   ├── 📄 Arthur Alexander.txt
+    │       │   │   ├── 📄 Jimmie Allen.txt
+    │       │   │   └── 📄 Tanner Adell.txt
+    │       │   └── 📁 African-American crunk musicians
+    │       │       ├── 📄 Bone Crusher (rapper).txt
+    │       │       ├── 📄 David Banner.txt
+    │       │       └── 📄 Kandi Burruss.txt
+    │       └── 📁 African-American musicians by instrument
+    │           ├── 📁 African-American fiddlers
+    │           │   ├── 📄 Clarence -Gatemouth- Brown.txt
+    │           │   ├── 📄 Jake Blount.txt
+    │           │   └── 📄 Jim Booker.txt
+    │           ├── 📁 African-American mandolinists
+    │           │   ├── 📄 Clarence -Gatemouth- Brown.txt
+    │           │   ├── 📄 Floyd Council.txt
+    │           │   ├── 📄 Howard Armstrong (musician).txt
+    │           │   └── 📁 American blues mandolinists
+    │           └── 📁 African-American woodwind musicians
+    │               ├── 📄 Cannonball Adderley.txt
+    │               ├── 📄 Gene Ammons.txt
+    │               ├── 📄 Gerald Albright.txt
+    │               ├── 📁 African-American flautists
+    │               └── 📁 African-American saxophonists
+    ├── 📁 Music of the African diaspora
+    │   ├── 📄 African Guitar Summit.txt
+    │   ├── 📄 List of musical genres of the African diaspora.txt
+    │   ├── 📄 Music of the African diaspora.txt
+    │   ├── 📁 African-American music
+    │   │   ├── 📄 Acid house.txt
+    │   │   ├── 📄 African-American Music Appreciation Month.txt
+    │   │   ├── 📄 African-American music.txt
+    │   │   ├── 📁 African-American music in Africa
+    │   │   │   ├── 📄 Afro rock.txt
+    │   │   │   ├── 📄 Boomba music.txt
+    │   │   │   ├── 📄 G.V. Series.txt
+    │   │   │   └── 📁 African hip hop
+    │   │   │       ├── 📄 African hip hop.txt
+    │   │   │       ├── 📄 Beninese hip hop.txt
+    │   │   │       ├── 📄 Egyptian hip hop.txt
+    │   │   │       └── 📁 African hip hop by country
+    │   │   ├── 📁 African-American musical groups
+    │   │   │   ├── 📄 2 Live Crew.txt
+    │   │   │   ├── 📄 2nd II None.txt
+    │   │   │   ├── 📄 2nd Nature (boy band).txt
+    │   │   │   ├── 📁 African-American musical duos
+    │   │   │   │   ├── 📄 7 Days of Funk (group).txt
+    │   │   │   │   ├── 📄 8Ball & MJG.txt
+    │   │   │   │   └── 📄 A.Dd+.txt
+    │   │   │   ├── 📁 African-American musical quartets
+    │   │   │   │   ├── 📄 54th Platoon.txt
+    │   │   │   │   ├── 📄 B2K.txt
+    │   │   │   │   └── 📄 The Click (band).txt
+    │   │   │   └── 📁 African-American musical trios
+    │   │   │       ├── 📄 213 (group).txt
+    │   │   │       ├── 📄 3T.txt
+    │   │   │       └── 📄 Allure (group).txt
+    │   │   └── 📁 African-American musicians
+    │   │       ├── 📄 Abdu Ali.txt
+    │   │       ├── 📄 African-American music.txt
+    │   │       ├── 📄 Black conductors.txt
+    │   │       ├── 📁 African-American male musicians
+    │   │       │   ├── 📁 African-American male composers
+    │   │       │   └── 📁 African-American male singers
+    │   │       ├── 📁 African-American musicians by genre
+    │   │       │   ├── 📁 African-American classical musicians
+    │   │       │   ├── 📁 African-American country musicians
+    │   │       │   └── 📁 African-American crunk musicians
+    │   │       └── 📁 African-American musicians by instrument
+    │   │           ├── 📁 African-American fiddlers
+    │   │           ├── 📁 African-American mandolinists
+    │   │           └── 📁 African-American woodwind musicians
+    │   ├── 📁 Afro-Caribbean music
+    │   │   ├── 📄 Afro-Caribbean music.txt
+    │   │   ├── 📄 Martha Ellen Davis.txt
+    │   │   ├── 📄 Taina Asili.txt
+    │   │   ├── 📁 Afro-Cuban jazz
+    │   │   │   ├── 📄 Afro-Cuban jazz.txt
+    │   │   │   ├── 📄 Descarga.txt
+    │   │   │   ├── 📄 Havana Meets Kingston.txt
+    │   │   │   ├── 📁 Afro-Cuban jazz bandleaders
+    │   │   │   │   ├── 📄 Dizzy Gillespie.txt
+    │   │   │   │   ├── 📄 Elio Villafranca.txt
+    │   │   │   │   └── 📄 Rubén Blades.txt
+    │   │   │   ├── 📁 Afro-Cuban jazz composers
+    │   │   │   │   ├── 📄 Jane Bunnett.txt
+    │   │   │   │   ├── 📄 Mario Bauzá.txt
+    │   │   │   │   └── 📄 Paquito D'Rivera.txt
+    │   │   │   └── 📁 Afro-Cuban jazz ensembles
+    │   │   │       ├── 📄 Afrocuba.txt
+    │   │   │       ├── 📄 Bongo-Logic.txt
+    │   │   │       └── 📄 Candela (American band).txt
+    │   │   ├── 📁 Calypso music
+    │   │   │   ├── 📄 Benna (genre).txt
+    │   │   │   ├── 📄 Brega pop.txt
+    │   │   │   ├── 📄 Cadence-lypso.txt
+    │   │   │   ├── 📁 Calypso albums
+    │   │   │   │   ├── 📄 Discover America.txt
+    │   │   │   │   ├── 📄 Metin Ersoy.txt
+    │   │   │   │   ├── 📄 Pop 'n' Mento.txt
+    │   │   │   │   ├── 📁 Live calypso albums
+    │   │   │   │   ├── 📁 Maya Angelou albums
+    │   │   │   │   └── 📁 Soca albums
+    │   │   │   ├── 📁 Calypso musical groups
+    │   │   │   │   ├── 📄 Draytons Two.txt
+    │   │   │   │   ├── 📄 Lord Radio & the Bimshire Boys.txt
+    │   │   │   │   └── 📄 The Fabulous McClevertys.txt
+    │   │   │   └── 📁 Calypsonians
+    │   │   │       ├── 📄 Calypsonian.txt
+    │   │   │       ├── 📄 Gerald Achee.txt
+    │   │   │       ├── 📄 List of calypso musicians.txt
+    │   │   │       └── 📁 Calypso musical groups
+    │   │   └── 📁 Kaiso
+    │   │       ├── 📄 Calypso music.txt
+    │   │       ├── 📄 Kaiso.txt
+    │   │       └── 📄 Soca music.txt
+    │   └── 📁 Black British music
+    │       ├── 📄 Afroswing.txt
+    │       ├── 📄 BBC Radio 1Xtra.txt
+    │       ├── 📄 British Black music.txt
+    │       ├── 📁 Black British musicians
+    │       │   ├── 📄 Abra Cadabra.txt
+    │       │   ├── 📄 Alex da Kid.txt
+    │       │   ├── 📄 Ashley Akabah.txt
+    │       │   ├── 📁 19th-century Black British musicians
+    │       │   │   ├── 📄 Joseph Antonio Emidy.txt
+    │       │   │   └── 📁 19th-century Black British singers
+    │       │   ├── 📁 20th-century Black British musicians
+    │       │   │   ├── 📄 Geraldine Connor.txt
+    │       │   │   ├── 📄 Ian Hall (musician).txt
+    │       │   │   ├── 📄 Roy Carter (producer).txt
+    │       │   │   ├── 📁 20th-century Black British singers
+    │       │   │   └── 📁 20th-century Black British women musicians
+    │       │   └── 📁 21st-century Black British musicians
+    │       │       ├── 📄 Geraldine Connor.txt
+    │       │       ├── 📄 Loraine James.txt
+    │       │       ├── 📄 Roy Carter (producer).txt
+    │       │       ├── 📁 21st-century Black British singers
+    │       │       └── 📁 21st-century Black British women musicians
+    │       ├── 📁 British hip hop
+    │       │   ├── 📄 Blah Records.txt
+    │       │   ├── 📄 Don't Flop.txt
+    │       │   ├── 📄 UK rap.txt
+    │       │   ├── 📁 British breakdancers
+    │       │   │   ├── 📄 George Sampson.txt
+    │       │   │   └── 📄 Magical Bones.txt
+    │       │   ├── 📁 British hip hop dancers
+    │       │   │   ├── 📄 Ashley Banjo.txt
+    │       │   │   ├── 📄 Jordan Banjo.txt
+    │       │   │   ├── 📄 Teneisha Bonner.txt
+    │       │   │   └── 📁 British hip hop dance groups
+    │       │   └── 📁 Hip hop albums by British artists
+    │       │       ├── 📄 1987 (What the Fuck Is Going On-).txt
+    │       │       ├── 📄 AIM (album).txt
+    │       │       ├── 📄 MCM – Gospel Reprise- A Few More Gems.txt
+    │       │       ├── 📁 Gangsta rap albums by Scottish artists
+    │       │       ├── 📁 Hip hop albums by English artists
+    │       │       └── 📁 Hip hop albums by artists from Northern Ireland
+    │       └── 📁 Grime music
+    │           ├── 📄 Butterz.txt
+    │           ├── 📄 Grime music.txt
+    │           ├── 📄 The Booo Krooo.txt
+    │           ├── 📁 Grime music albums
+    │           │   ├── 📄 Attack the Block (soundtrack).txt
+    │           │   ├── 📄 Cold Mission.txt
+    │           │   ├── 📄 Future Brown (album).txt
+    │           │   ├── 📁 Akala (rapper) albums
+    │           │   ├── 📁 Grime music EPs
+    │           │   └── 📁 Grindie albums
+    │           ├── 📁 Grime music artists
+    │           │   ├── 📄 Afrikan Boy.txt
+    │           │   ├── 📄 Amplify Dot.txt
+    │           │   ├── 📄 Baby Blue (rapper).txt
+    │           │   └── 📁 Grime music groups
+    │           └── 📁 Grime music songs
+    │               ├── 📄 3 Wheel-Ups.txt
+    │               ├── 📄 Ascension (Gorillaz song).txt
+    │               ├── 📄 Garage Palace.txt
+    │               ├── 📁 Dizzee Rascal songs
+    │               ├── 📁 Jme songs
+    │               └── 📁 Joyryde songs
+    └── 📁 Musicians by ethnicity
+        ├── 📁 Classical musicians by ethnicity
+        │   ├── 📁 American classical musicians by ethnic or national origin
+        │   │   ├── 📁 African-American classical musicians
+        │   │   │   ├── 📄 Black conductors.txt
+        │   │   │   ├── 📄 Kalena Bovell.txt
+        │   │   │   ├── 📄 List of African-American women in classical music.txt
+        │   │   │   ├── 📁 African-American classical composers
+        │   │   │   ├── 📁 African-American classical pianists
+        │   │   │   └── 📁 African-American opera singers
+        │   │   ├── 📁 American classical musicians of Asian descent
+        │   │   │   ├── 📁 American classical musicians of Chinese descent
+        │   │   │   ├── 📁 American classical musicians of Indian descent
+        │   │   │   └── 📁 American classical musicians of Japanese descent
+        │   │   └── 📁 Jewish American classical musicians
+        │   │       ├── 📄 Joseph Achron.txt
+        │   │       ├── 📄 Kurt Adler.txt
+        │   │       ├── 📄 Maurice Abravanel.txt
+        │   │       └── 📁 Jewish American classical composers
+        │   ├── 📁 Basque classical musicians
+        │   │   ├── 📄 Jesús Arámbarri.txt
+        │   │   ├── 📄 Jesús Guridi.txt
+        │   │   ├── 📄 Juan Crisóstomo Arriaga.txt
+        │   │   └── 📁 Basque classical composers
+        │   │       ├── 📄 Javier Bello-Portu.txt
+        │   │       ├── 📄 Juan Crisóstomo Arriaga.txt
+        │   │       └── 📄 Roberto Bienzobas.txt
+        │   └── 📁 Opera singers by ethnicity
+        │       ├── 📁 African-American opera singers
+        │       │   ├── 📁 African-American male opera singers
+        │       │   └── 📁 African-American women opera singers
+        │       ├── 📁 Jewish opera singers
+        │       │   ├── 📄 Gitta Alpár.txt
+        │       │   ├── 📄 Harriett Abrams.txt
+        │       │   └── 📄 Mario Ancona.txt
+        │       └── 📁 Māori opera singers
+        │           ├── 📄 Kiri Te Kanawa.txt
+        │           ├── 📄 Marie Te Hapuku.txt
+        │           └── 📄 Phillip Rhodes (baritone).txt
+        ├── 📁 Composers by ethnicity
+        │   ├── 📁 Basque composers
+        │   │   ├── 📄 Carmelo Bernaola.txt
+        │   │   ├── 📄 Francisco Ibáñez (composer).txt
+        │   │   ├── 📄 José María Franco (composer).txt
+        │   │   └── 📁 Basque classical composers
+        │   │       ├── 📄 Javier Bello-Portu.txt
+        │   │       ├── 📄 Juan Crisóstomo Arriaga.txt
+        │   │       └── 📄 Roberto Bienzobas.txt
+        │   ├── 📁 Flemish composers
+        │   │   ├── 📄 Emmanuel Adriaenssen.txt
+        │   │   ├── 📄 Flor Alpaerts.txt
+        │   │   ├── 📄 Georges-Jacques Aelsters.txt
+        │   │   ├── 📁 Flemish Baroque composers
+        │   │   │   ├── 📄 Lambert Chaumont.txt
+        │   │   │   ├── 📄 Leonora Duarte.txt
+        │   │   │   └── 📄 Peeter Cornet.txt
+        │   │   └── 📁 Franco-Flemish composers
+        │   │       ├── 📁 15th-century Franco-Flemish composers
+        │   │       └── 📁 16th-century Franco-Flemish composers
+        │   └── 📁 Igbo composers
+        │       ├── 📄 Joshua Uzoigwe.txt
+        │       └── 📄 Mendi & Keith Obadike.txt
+        └── 📁 Singers by ethnicity
+            ├── 📁 Australian singers by ethnicity
+            │   └── 📁 Australian singers of Italian descent
+            │       ├── 📄 Alfio (tenor).txt
+            │       ├── 📄 Tina Arena.txt
+            │       └── 📄 Vanessa Amorosi.txt
+            ├── 📁 Opera singers by ethnicity
+            │   ├── 📁 African-American opera singers
+            │   │   ├── 📁 African-American male opera singers
+            │   │   └── 📁 African-American women opera singers
+            │   ├── 📁 Jewish opera singers
+            │   │   ├── 📄 Gitta Alpár.txt
+            │   │   ├── 📄 Harriett Abrams.txt
+            │   │   └── 📄 Mario Ancona.txt
+            │   └── 📁 Māori opera singers
+            │       ├── 📄 Kiri Te Kanawa.txt
+            │       ├── 📄 Marie Te Hapuku.txt
+            │       └── 📄 Phillip Rhodes (baritone).txt
+            └── 📁 Rappers by ethnicity
+                ├── 📁 African-American rappers
+                │   ├── 📄 Bas (rapper).txt
+                │   ├── 📄 Rich Amiri.txt
+                │   ├── 📄 Sho Baraka.txt
+                │   ├── 📁 African-American male rappers
+                │   └── 📁 African-American women rappers
+                ├── 📁 Arab rappers
+                │   ├── 📄 List of Arab rappers.txt
+                │   ├── 📄 Qusai (musician).txt
+                │   ├── 📄 Tony K.txt
+                │   ├── 📁 Algerian rappers
+                │   ├── 📁 Egyptian rappers
+                │   └── 📁 Emirati rappers
+                └── 📁 Black British rappers
+                    ├── 📁 Black British male rappers
+                    └── 📁 Black British women rappers
