@@ -2,7 +2,7 @@ import os
 import wikipediaapi
 import re
 
-
+# Download the content of a Wikipedia page
 def wiki_download(save_path, content):
     if not os.path.exists(save_path):
         with open(save_path, 'w', encoding='utf-8') as file:
@@ -11,6 +11,7 @@ def wiki_download(save_path, content):
 
 num_cat = {}
 
+# Search for the content of Wikipedia music category and create directories for categories and files for pages
 def wiki_search(categorymembers, wiki_wiki, path='', level=0, max_level=5):
     if path not in num_cat:
         num_cat[path] = 0

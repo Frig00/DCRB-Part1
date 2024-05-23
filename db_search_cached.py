@@ -4,6 +4,8 @@ from dotenv import load_dotenv
 from cache import LocalCache
 
 cache = LocalCache()
+
+# Recursive query to get the full path of a file
 def get_full_path(dir_id):
     db_cursor.execute("""
             WITH RECURSIVE FilePath AS (
@@ -36,12 +38,15 @@ def retrieve_file_path(search_string):
     from_cache = 0
     matched_files = []
     cached_files_id = []
+
+    # Check if the search string matches with some files in the cache
     for key, value in cache.get_all_items():
         if search_string in value[0] or search_string in value[4]:
             matched_files.append([key] + value + ['cache'])
             cached_files_id.append(key)
             from_cache += 1
 
+    # Query to retrieve files matching the search string that are not in the cache
     query = ("SELECT *, "
              "IF(f.readable = TRUE, (LENGTH(f.content) - LENGTH(REPLACE(f.content, %s, ''))) / LENGTH(%s), NULL) AS occurrences "
              "FROM files f "
@@ -50,6 +55,7 @@ def retrieve_file_path(search_string):
     db_cursor.execute(query, (f"{search_string}", f"{search_string}", f"%{search_string}%", f"%{search_string}%", ','.join([str(id) for id in cached_files_id])))
     results = db_cursor.fetchall()
 
+    # Processing retrieved files
     if results:
         for result in results:
             dir_id = result[4]
@@ -65,6 +71,7 @@ def retrieve_file_path(search_string):
 
     print_files(matched_files, from_cache, from_db)
 
+# Display matched files information
 def print_files(files, from_cache, from_db):
     for file in files:
         file_id, file_name, file_type, readable, dir_id, content, occurences, path, prov = file
@@ -80,6 +87,7 @@ def print_files(files, from_cache, from_db):
 if __name__ == "__main__":
     load_dotenv()
 
+    # DB connection settings
     db_connection = mysql.connector.connect(
         host=os.getenv("DB_HOST"),
         user=os.getenv("DB_USER"),

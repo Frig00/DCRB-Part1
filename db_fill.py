@@ -10,8 +10,10 @@ dir_chunks = []
 max_chunk_size = 50
 readable_types = ['txt', 'html']
 
+# Check if files and directories chunks are full and commit them
 def check_and_commit():
 
+    # Before commiting files I must commit directories beacuse files have a foreign key to directories
     if len(file_chunks) >= max_chunk_size:
         if dir_chunks:
             db_cursor.executemany(dir_query, dir_chunks)
@@ -29,10 +31,14 @@ def check_and_commit():
         db_connection.commit()
         print(f"{len(dir_chunks)} directories committed.")
         dir_chunks.clear()
+
 def fill_db(root_path):
+
+    # Read last directory id from database
     dir_id = db_cursor.lastrowid+1 if db_cursor.lastrowid else 1
     dir_queue = deque([(root_path, None)])
 
+    # Process directories and files
     while dir_queue:
         current_dir, parent_dir_id = dir_queue.popleft()
         check_and_commit()
@@ -76,6 +82,7 @@ def fill_db(root_path):
         except Exception as e:
             print(f"Error processing directory {current_dir}: {e}")
 
+    # Commit remaining files and directories in chunks
     if dir_chunks:
         db_cursor.executemany(dir_query, dir_chunks)
         db_connection.commit()
@@ -91,6 +98,7 @@ def fill_db(root_path):
 if __name__ == "__main__":
     load_dotenv()
 
+    # DB connection settings
     db_connection = mysql.connector.connect(
         host=os.getenv("DB_HOST"),
         user=os.getenv("DB_USER"),
@@ -99,6 +107,7 @@ if __name__ == "__main__":
     )
     db_cursor = db_connection.cursor()
 
+    # Root directory
     root_dir = "DCRB"
 
     fill_db(root_dir)

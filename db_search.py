@@ -2,6 +2,7 @@ import mysql.connector
 import os
 from dotenv import load_dotenv
 
+# Recursive query to get the full path of a file
 def get_full_path(dir_id):
     db_cursor.execute("""
             WITH RECURSIVE FilePath AS (
@@ -30,6 +31,7 @@ def get_full_path(dir_id):
 
 def retrieve_file_path(search_string):
 
+    # Query to retrieve all files matching the search string
     query = ("SELECT f.dir, f.content, f.name, f.readable, f.type, "
              "IF(f.readable = TRUE, (LENGTH(f.content) - LENGTH(REPLACE(f.content, %s, ''))) / LENGTH(%s), NULL) AS occurrences "
              "FROM files f "
@@ -38,6 +40,7 @@ def retrieve_file_path(search_string):
     db_cursor.execute(query, (f"{search_string}", f"{search_string}",f"%{search_string}%", f"%{search_string}%"))
     results = db_cursor.fetchall()
 
+    # Processing retrieved files
     if results:
         for result in results:
             dir_id, content, file_name, readable, type, occurences = result
@@ -50,6 +53,7 @@ def retrieve_file_path(search_string):
 if __name__ == "__main__":
     load_dotenv()
 
+    #DB connection settings
     db_connection = mysql.connector.connect(
         host=os.getenv("DB_HOST"),
         user=os.getenv("DB_USER"),
