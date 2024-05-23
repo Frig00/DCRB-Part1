@@ -1,4 +1,4 @@
-DCRB-Part1/DCRB
+DCRB
 ├── 📄 Index of music articles.txt
 ├── 📄 Music.txt
 ├── 📁 Music by culture
